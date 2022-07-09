@@ -1,7 +1,7 @@
 
 type ID = number | string ;
 
-const userId: ID = "1"; 
+const userId: ID = 1; 
 const postId: ID = "123sd1sf1q2"
 
 type Coords = [number, number];

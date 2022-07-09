@@ -3,7 +3,9 @@
 // import "./02-array";
 // import "./03-types";
 // import "./04-interfaces"
-import "./05-enums"
+// import "./05-enums"
+// import "./06-function"
+import "./07-classes"
 
 
 export { };

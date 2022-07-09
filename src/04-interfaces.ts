@@ -8,6 +8,7 @@ interface PluginConfig {
     draggable: boolean
 }
 
+
 const config:  PluginConfig = {
     selector: "#plugin-1",
     perPage: 2,
