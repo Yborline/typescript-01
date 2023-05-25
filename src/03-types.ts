@@ -1,5 +1,5 @@
 
-type ID = number | string ;
+type ID = number | string
 
 const userId: ID = 1; 
 const postId: ID = "123sd1sf1q2"
@@ -16,8 +16,11 @@ type CellSize = 2 | 4 | 8 | 16;
 
 const cell: CellSize = 4;
 
+type Model = "small" | "normal" | "big" 
 
-console.log(userId , postId , coords , requestStatus , cell)
+const currentModel: Model = "small"
+
+console.log(currentModel,userId , postId , coords , requestStatus , cell)
 
 
 export {}

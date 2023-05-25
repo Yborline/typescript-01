@@ -8,6 +8,7 @@ value = '2wewe';
 let user: object;
 user = {};
 
+
 // age = "qweq"
 
 let id: string | number | boolean = 5;
@@ -16,6 +17,7 @@ id = "qweqw";
 
 id = true;
 
+id = 5 
 // id = [];
 
 

@@ -37,9 +37,14 @@ let bestEmployeeName = "";
 let bestEmployeeProIndex = 0;
 for (const [name , value] of entries) {
     if (bestEmployeeProIndex <= value) {
+        bestEmployeeProIndex = value
         bestEmployeeName = name;
     }
 }
 
-console.log(config, bestEmployeeName)
+
+
+
+
+console.log(entries,config, bestEmployeeName)
 export {}
